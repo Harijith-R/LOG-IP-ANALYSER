@@ -2,7 +2,7 @@ import collections
 import sys
 import os
 
-LogFile = "access.log"
+LogFile = "/home/harijith/Python/access.log"
 
 # fh = open(LogFile,'r')
 # context manager
