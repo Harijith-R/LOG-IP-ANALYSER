@@ -7,12 +7,13 @@ import collections
 import sys
 import os
 
-LogFile = "/home/harijith/Python/python-ip-counter/access.log"
+#LogFile location Input from the End User
+LogFile = input("Enter the full path of the Log file which needs to be analysed: ")
 
 # This will exclude the Loopback IP Address both in IPV4 and IPV6
 EXCLUDES = ('127.0.0.1','::1')
 
-#Output Format:
+#Output Header for better readability
 print('{:15}  : {}'.format("IP","COUNT"))
 
 # Initialise the IP Counter collections
