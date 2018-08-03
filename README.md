@@ -5,7 +5,7 @@ This Python script can be used to analyze the access logs or error logs. It will
 ## Getting Started
 
 Download the file ipcounter.py. The direct link of the download file can be obtained from the below URL.
-https://github.com/Harijith-R/python-ip-counter
+https://github.com/Harijith-R/LOG-IP-ANALYSER
 
 ## Application Usage: 
 ```
