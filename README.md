@@ -1,6 +1,6 @@
 # LOG HIT ANALYSER
 
-This Python script can be used to analyse the access logs or error logs. It will return the IP and the number times it appeared in the log.
+This Python script can be used to analyze the access logs or error logs. It will return the IP and the number times it appeared in the log.
 
 ## Getting Started
 
@@ -40,7 +40,7 @@ $ sudo apt-get update
 $ sudo apt-get install python3.6
 ```
 
-### CentOS
+#### CentOS
 
 The IUS Community does a nice job of providing newer versions of software for “Enterprise Linux” distros (i.e. Red Hat Enterprise and CentOS). You can use their work to help you install Python 3.
 
@@ -53,21 +53,21 @@ You can then install the CentOS IUS package which will get you up to date with t
 ```
 $ sudo yum install https://centos7.iuscommunity.org/ius-release.rpm
 ```
-Finally you can then install Python and Pip:
+Finally, you can then install Python and Pip:
 ```
 $ sudo yum install python36u
 $ sudo yum install python36u-pip
 ```
 Thanks to Jani Karhunen for his excellent writeup for CentOS 7.
 
-### Fedora
+#### Fedora
 
 Fedora has a roadmap to switch to Python 3 as the default Python published here. It indicates that the current version and the next few versions will all ship with Python 2 as the default, but Python 3 will be installed. If the python3 installed on your version is not 3.6, you can use the following command to install it:
 ```
 $ sudo dnf install python36
 ```
 
-### Arch Linux
+#### Arch Linux
 
 Arch Linux is fairly aggressive about keeping up with Python releases. It is likely you already have the latest version. If not, you can use this command:
 ```
@@ -76,7 +76,7 @@ $ packman -S python
 
 ## Contributing
 
-I'm open to suggestions and code imporovement. Please let me know if there is a scope for improvement.
+I'm open to suggestions and code improvements. Please let me know if there is a scope for improvement.
 
 ## Versioning
 
